@@ -1,0 +1,12 @@
+[package]
+name = "juju-kubectl"
+version = "0.1.0"
+authors = ["Kenneth Koski <kennethkoski@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+clap = "2.32"
+failure = "0.1"
+tempfile = "3.0"
+libjuju = { git = "https://github.com/knkski/rust-libjuju.git" }
